@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AR Constructions - Building Dreams</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero-image {
+            max-width: 100%;
+            max-height: auto;
+            opacity: 0.7;
+            border-radius: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+        }
+
+        .overlay img {
+            max-width: 100px;
+            margin-right: 20px;
+        }
+
+        .overlay h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .overlay p {
+            font-size: 24px;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .cta h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .cta p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #666;
+        }
+
+        .cta button {
+            padding: 12px 24px;
+            font-size: 18px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta button:hover {
+            background-color: #45a049;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .service {
+            width: 300px;
+            text-align: center;
+            margin: 0 20px;
+        }
+
+        .service img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .service h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .service p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .contact-details {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .contact-details h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact-details p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <img src="hero-image.jpg" alt="Hero Image" class="hero-image">
+        <div class="overlay">
+            <img src="logo.png" alt="AR Constructions Logo">
+            <div>
+                <h1>Welcome to AR Constructions</h1>
+                <p>Building Dreams with Excellence</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta">
+        <div class="container">
+            <h2>Quality Construction Services</h2>
+            <p>Experience excellence in building your dream project with AR Constructions.</p>
+            <a href="#contact-details"><button>Contact Us</button></a>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container">
+            <div class="service">
+                <img src="service1.jpg" alt="Service 1">
+                <h3>Residential Projects</h3>
+                <p>We specialize in crafting beautiful and comfortable homes for your family.</p>
+            </div>
+            <div class="service">
+                <img src="service2.jpg" alt="Service 2">
+                <h3>Commercial Buildings</h3>
+                <p>We provide reliable construction solutions for your business needs.</p>
+            </div>
+            <div class="service">
+                <img src="service3.jpg" alt="Service 3">
+                <h3>Renovation & Remodeling</h3>
+                <p>Transform your existing space into something remarkable with our renovation services.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-details" id="contact-details">
+        <div class="container">
+            <h2>Contact Details</h2>
+            <p>For inquiries or further information, please contact us:</p>
+            <p>Email: <a href="mailto:akshith1502@gmail.com">akshith1502@gmail.com</a></p>
+            <p>Phone: +1 123-456-7890</p>
+            <p>Address: 123 Construction Street, City, State, ZIP</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2023 Akshith. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
